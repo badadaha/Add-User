@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.adduser.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvUsername"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvPassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvName"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+    
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/btnSave" />
+    
+</LinearLayout>
